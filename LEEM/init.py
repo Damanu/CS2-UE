@@ -22,9 +22,16 @@ def main():
 	G=nx.fast_gnp_random_graph(S,p,directed=True) #make a random erdoes-renyi graph with S nodes and prob p
 	ran=np.random.rand(S)	# make list with S random numbers between 0 and 1
 	ran=ran/sum(ran)	# normalise ran so that the sum over all is 1
+	ran=map(float,ran)
 	x=dict(zip(np.arange(S),ran)) #create a dictionary with first parameter the index of the node and second the relative population xi
+	
 	nx.set_node_attributes(G,"x",x)	#set the attribute of the nodes
-	nx.write_pajek(G,"init_out.net")
-
+	nx.write_gexf(G,"init_out.gexf") #write network to file
+	f=open("init_parameter_out.data","w")
+	f.write(str(S))
+	f.write(" ")
+	f.write(str(p))
+	
+	f.close()
 if __name__=="__main__":
 	main() 
