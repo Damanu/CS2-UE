@@ -11,7 +11,7 @@ import networkx as nx
 #---------------Globals---------------------------
 tres=0.000001 #treshold for a node being weak and thus maybe dying
 smallx=0.002# small x for new node and perturbation (smaller than that)
-
+nt=0
 #-----------------inputs-----------------------
 if len(sys.argv)!=4:
 	print "Usage:\n\n	dynamics.py [ntprint] [ntjob] [ntperturb]"
@@ -38,29 +38,32 @@ def print_net(G,x):
 	x_=map(float,x)	#change all elements to a float
 	dic=dict(zip(map(str,np.arange(S)),x_))	#write dictionary for the attributes
 	nx.set_node_attributes(G,"x",dic) #set attributes new
-	fn=str("./dynamic_out/dynamic_out_nt="+str(i)+".gexf")
+	fn=str("./dynamic_out/dynamic_out_nt="+str(nt)+".gexf")
 	nx.write_gexf(G,fn) #write gexf file with network
 
 def kill_node(G,x):
-	x_=map(float,x) 
+	x_=x 
+	print x_
 	dic=dict(zip(map(str,np.arange(S)),x_))
 	nx.set_node_attributes(G,"x",dic)
 	weak=[] #list of dying species
-	for index,xi in dic.iteritems():
-		if xi < tres:
-			weak.append(index)
-	delind=np.random.randint(len(weak))
-	dic[str(delind)]=smallx #set the relative concentration of the new node to a small value
+	index=0
+	while index==0: #do as long as there is no species to kill picked
+		index=np.random.randint(len(x)) #pick species at random
+		if np.random.rand()<dic[str(index)]: # is random number smaller than x of species
+			index=0 # dont accept and do again
+		else:
+			dic[str(index)]=smallx #set the relative concentration of the new node to a small value
 	j=0
-	while j<S:	#iterate over all nodes
-		if j!=delind and np.random.rand()<p: #is an other node and with certain probability?
-			G.add_edge(delind,j)	#add a connection between new node and an other one
-		elif G.has_edge(j,delind):
-			G.remove_edge(j,delind)	#remove a connection between new node and an other one
-		if j!=delind and np.random.rand()<p: #is an other node and with certain probability?
-			G.add_edge(j,delind)	#add a connection between new node and an other one
-		elif G.has_edge(delind,j):
-			G.remove_edge(delind,j)	#remove a connection between new node and an other one
+	while j<S:	#iterate over all nodes, set new edges of new species
+		if j!=index and np.random.rand()<p: #is an other node and with certain probability?
+			G.add_edge(index,j)	#add a connection between new node and an other one
+		elif G.has_edge(j,index):
+			G.remove_edge(j,index)	#remove a connection between new node and an other one
+		if j!=index and np.random.rand()<p: #is an other node and with certain probability?
+			G.add_edge(j,index)	#add a connection between new node and an other one
+		elif G.has_edge(index,j):
+			G.remove_edge(index,j)	#remove a connection between new node and an other one
 		j+=1
 	x_=perturb_all(G,x_)
 	dic=dict(zip(map(str,np.arange(S)),x_))
@@ -78,18 +81,18 @@ def perturb_all(G,x_):	#perturb all x by an amount smaller than smallx and resca
 #-----------------Main program-------------------
 def main():
 	weak=[]
-
 	G=nx.read_gexf("init_out.gexf")
 	x=np.array(nx.get_node_attributes(G,"x").values())
 	C=nx.to_numpy_matrix(G)
-	i=0
-	while i<ntjob:
+	print x
+	nt=0
+	while nt<ntjob:
 		x=timestep(G,x,C) #change the attributes according to the rate equation
-		i+=1
-		if i%ntprint==0: #every time i has run ntprint steps through
+		nt+=1
+		if nt%ntprint==0: #every time i has run ntprint steps through
 			x_=print_net(G,x)
-		if i%ntperturb==0: #every time i has run ntperturb steps through
-			perturb(G,x)		
+		if nt%ntperturb==0: #every time i has run ntperturb steps through
+			kill_node(G,x)		
 					
 if __name__=="__main__":
 	main()
