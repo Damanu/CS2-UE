@@ -9,8 +9,8 @@ import numpy as np
 import networkx as nx
 
 #---------------Globals---------------------------
-tres=0.01
-smallx=0.002
+tres=0.000001 #treshold for a node being weak and thus maybe dying
+smallx=0.002# small x for new node and perturbation (smaller than that)
 
 #-----------------inputs-----------------------
 if len(sys.argv)!=4:
@@ -30,9 +30,51 @@ f.close()
 
 #---------------Subroutines-----------------------
 def timestep(G,x,C):
-	x=x+np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x))))
+	x=x+np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x))))#rate equation
 	x=x/sum(x)
 	return x
+
+def print_net(G,x):
+	x_=map(float,x)	#change all elements to a float
+	dic=dict(zip(map(str,np.arange(S)),x_))	#write dictionary for the attributes
+	nx.set_node_attributes(G,"x",dic) #set attributes new
+	fn=str("./dynamic_out/dynamic_out_nt="+str(i)+".gexf")
+	nx.write_gexf(G,fn) #write gexf file with network
+
+def kill_node(G,x):
+	x_=map(float,x) 
+	dic=dict(zip(map(str,np.arange(S)),x_))
+	nx.set_node_attributes(G,"x",dic)
+	weak=[] #list of dying species
+	for index,xi in dic.iteritems():
+		if xi < tres:
+			weak.append(index)
+	delind=np.random.randint(len(weak))
+	dic[str(delind)]=smallx #set the relative concentration of the new node to a small value
+	j=0
+	while j<S:	#iterate over all nodes
+		if j!=delind and np.random.rand()<p: #is an other node and with certain probability?
+			G.add_edge(delind,j)	#add a connection between new node and an other one
+		elif G.has_edge(j,delind):
+			G.remove_edge(j,delind)	#remove a connection between new node and an other one
+		if j!=delind and np.random.rand()<p: #is an other node and with certain probability?
+			G.add_edge(j,delind)	#add a connection between new node and an other one
+		elif G.has_edge(delind,j):
+			G.remove_edge(delind,j)	#remove a connection between new node and an other one
+		j+=1
+	x_=perturb_all(G,x_)
+	dic=dict(zip(map(str,np.arange(S)),x_))
+	nx.set_node_attributes(G,"x",dic)
+
+
+def perturb_all(G,x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
+	i=0
+	while i<S:
+		x_[i]-=smallx*np.random.rand()
+		i+=1
+	x_=x_/sum(x_)	
+	return x_
+
 #-----------------Main program-------------------
 def main():
 	weak=[]
@@ -42,40 +84,12 @@ def main():
 	C=nx.to_numpy_matrix(G)
 	i=0
 	while i<ntjob:
-		x=timestep(G,x,C)
+		x=timestep(G,x,C) #change the attributes according to the rate equation
 		i+=1
-		print "i ",i
 		if i%ntprint==0: #every time i has run ntprint steps through
-			x_=map(float,x)	#change all elements to a float
-			dic=dict(zip(map(str,np.arange(S)),x_))	#write dictionary for the attributes
-			nx.set_node_attributes(G,"x",dic) #set attributes new
-			fn=str("./dynamic_out/dynamic_out_nt="+str(i)+".gexf")
-			nx.write_gexf(G,fn) #write gexf file with network
+			x_=print_net(G,x)
 		if i%ntperturb==0: #every time i has run ntperturb steps through
-			x_=map(float,x) 
-			dic=dict(zip(map(str,np.arange(S)),x_))
-			nx.set_node_attributes(G,"x",dic)
-			weak=[]
-			for index,xi in dic.iteritems():
-				if xi < tres:
-					weak.append(index)
-				#	print index
-			delind=np.random.randint(len(weak))
-			print delind
-#			print G.node
-			G.remove_node(str(delind)) #remove one random node of the weak nodes
-			G.add_node(str(delind))	#add node with same name
-			dic[str(delind)]=smallx #set the relative concentration of the new node to a small value
-			j=0
-			while j<S:	#iterate over all nodes
-				if j!=delind and np.random.rand()<p: #is an other node and with certain probability?
-					G.add_edge(delind,j)	#add a connection between new node and an other one
-				if j!=delind and np.random.rand()<p: #is an other node and with certain probability?
-					G.add_edge(delind,j)	#add a connection between new node and an other one
-				j+=1
-
-				
-			
+			perturb(G,x)		
 					
 if __name__=="__main__":
 	main()
