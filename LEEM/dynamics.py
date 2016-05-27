@@ -34,7 +34,7 @@ def timestep(G,x,C):
 	x=x/sum(x)
 	return x
 
-def print_net(G,x):
+def print_net(G,x,nt):
 	x_=map(float,x)	#change all elements to a float
 	dic=dict(zip(map(str,np.arange(S)),x_))	#write dictionary for the attributes
 	nx.set_node_attributes(G,"x",dic) #set attributes new
@@ -42,38 +42,37 @@ def print_net(G,x):
 	nx.write_gexf(G,fn) #write gexf file with network
 
 def kill_node(G,x):
-	x_=x 
-	print x_
+	x_=x
 	dic=dict(zip(map(str,np.arange(S)),x_))
 	nx.set_node_attributes(G,"x",dic)
-	weak=[] #list of dying species
 	index=0
 	while index==0: #do as long as there is no species to kill picked
-		index=np.random.randint(len(x)) #pick species at random
+		index=np.random.randint(S) #pick species at random
 		if np.random.rand()<dic[str(index)]: # is random number smaller than x of species
 			index=0 # dont accept and do again
 		else:
-			dic[str(index)]=smallx #set the relative concentration of the new node to a small value
+			x_[index]=smallx #set the relative concentration of the new node to a small value
 	j=0
 	while j<S:	#iterate over all nodes, set new edges of new species
 		if j!=index and np.random.rand()<p: #is an other node and with certain probability?
-			G.add_edge(index,j)	#add a connection between new node and an other one
+			G.add_edge(str(index),str(j))	#add a connection between new node and an other one
 		elif G.has_edge(j,index):
 			G.remove_edge(j,index)	#remove a connection between new node and an other one
 		if j!=index and np.random.rand()<p: #is an other node and with certain probability?
-			G.add_edge(j,index)	#add a connection between new node and an other one
+			G.add_edge(str(j),str(index))	#add a connection between new node and an other one
 		elif G.has_edge(index,j):
 			G.remove_edge(index,j)	#remove a connection between new node and an other one
 		j+=1
-	x_=perturb_all(G,x_)
+	x_=perturb_all(x_)
 	dic=dict(zip(map(str,np.arange(S)),x_))
 	nx.set_node_attributes(G,"x",dic)
+	return G
 
 
-def perturb_all(G,x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
+def perturb_all(x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
 	i=0
 	while i<S:
-		x_[i]-=smallx*np.random.rand()
+		x_[i]+=smallx*(np.random.rand()-0.5)
 		i+=1
 	x_=x_/sum(x_)	
 	return x_
@@ -83,16 +82,18 @@ def main():
 	weak=[]
 	G=nx.read_gexf("init_out.gexf")
 	x=np.array(nx.get_node_attributes(G,"x").values())
+	dic=dict(zip(map(str,np.arange(S)),x))
 	C=nx.to_numpy_matrix(G)
-	print x
 	nt=0
 	while nt<ntjob:
+		C=nx.to_numpy_matrix(G)
+		x=np.array(nx.get_node_attributes(G,"x").values())
 		x=timestep(G,x,C) #change the attributes according to the rate equation
 		nt+=1
 		if nt%ntprint==0: #every time i has run ntprint steps through
-			x_=print_net(G,x)
+			x_=print_net(G,x,nt)
 		if nt%ntperturb==0: #every time i has run ntperturb steps through
-			kill_node(G,x)		
+			G=kill_node(G,x)
 					
 if __name__=="__main__":
 	main()
