@@ -9,7 +9,7 @@ import numpy as np
 import networkx as nx
 
 #---------------Globals---------------------------
-tres=0.000001 #treshold for a node being weak and thus maybe dying
+setsize=3
 smallx=0.002# small x for new node and perturbation (smaller than that)
 nt=0
 #-----------------inputs-----------------------
@@ -30,8 +30,9 @@ f.close()
 
 #---------------Subroutines-----------------------
 def timestep(G,x,C):
+#	print x[list(x).index(min(x))]*sum(np.squeeze(np.asarray(np.dot(C,x))))
 	x=x+np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x))))#rate equation
-	x=x/sum(x)
+	x=x/sum(abs(x))
 	return x
 
 def print_net(G,x,nt):
@@ -42,16 +43,17 @@ def print_net(G,x,nt):
 	nx.write_gexf(G,fn) #write gexf file with network
 
 def kill_node(G,x):
+	weak=[]
 	x_=x
-	dic=dict(zip(map(str,np.arange(S)),x_))
-	nx.set_node_attributes(G,"x",dic)
+	dic=dict(zip(np.arange(S),x_))
 	index=0
-	while index==0: #do as long as there is no species to kill picked
-		index=np.random.randint(S) #pick species at random
-		if np.random.rand()<dic[str(index)]: # is random number smaller than x of species
-			index=0 # dont accept and do again
-		else:
-			x_[index]=smallx #set the relative concentration of the new node to a small value
+	while len(weak)<setsize: #till set is full
+		weak.append(min(dic.values())) #append the smallest x
+		print len(weak)
+#		print dic.values().index(min(dic.values()))
+		del dic[dic.values().index(min(dic.values()))] #delete the entry of the smallest x in the dict
+		print dic
+	index=np.random.randint(len(weak))
 	j=0
 	while j<S:	#iterate over all nodes, set new edges of new species
 		if j!=index and np.random.rand()<p: #is an other node and with certain probability?
@@ -79,7 +81,6 @@ def perturb_all(x_):	#perturb all x by an amount smaller than smallx and rescale
 
 #-----------------Main program-------------------
 def main():
-	weak=[]
 	G=nx.read_gexf("init_out.gexf")
 	x=np.array(nx.get_node_attributes(G,"x").values())
 	dic=dict(zip(map(str,np.arange(S)),x))
@@ -91,9 +92,10 @@ def main():
 		x=timestep(G,x,C) #change the attributes according to the rate equation
 		nt+=1
 		if nt%ntprint==0: #every time i has run ntprint steps through
-			x_=print_net(G,x,nt)
+			print_net(G,x,nt)
 		if nt%ntperturb==0: #every time i has run ntperturb steps through
 			G=kill_node(G,x)
-					
+		
+	print x			
 if __name__=="__main__":
 	main()
