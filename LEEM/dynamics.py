@@ -28,7 +28,7 @@ ntperturb=int(sys.argv[3])
 
 #---------------Globals---------------------------
 setsize=int(S*0.1)
-smallx=1./S# small x for new node and perturbation (smaller than that)
+smallx=50./S# small x for new node and perturbation (smaller than that)
 nt=0
 #---------------Subroutines-----------------------
 def timestep(G,x,C):
@@ -63,13 +63,18 @@ def kill_node(G,x):
 		np.random.shuffle(keys)
 		l=[]	
 		for n in keys:
-			l.append(dic[n])
-		ind=l.index(min(l))
+			if n>10**-5:
+				l.append(dic[n])
+			else:
+				l.append(0.)
+		ind=l.index(min(map(float,l)))
 		weak.append(int(keys[ind])) #append the smallest x key
 #		print dic.values().index(min(dic.values()))
 		del dic[keys[ind]] #delete the entry of the smallest x in the dict
+	dic=dict(zip(np.arange(S),x_))
 	index=str(np.random.randint(min(weak),max(weak)+1))
 	x_[int(index)]=smallx #change x of new species
+	print index,dic[int(index)]
 	j=0
 	while j<S:
 		if G.has_edge(index,str(j)):
@@ -91,14 +96,14 @@ def kill_node(G,x):
 def nonzerox(x):
 	count=0
 	for val in x:
-		if val > 10**-14:
+		if val > 10**-5:
 			count+=1
 	return count
 
 def perturb_all(x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
 	i=0
 	while i<S:
-		x_[i]+=x_[i]*(np.random.rand()-0.5)/100
+		x_[i]+=x_[i]*(np.random.rand()-0.5)/10.
 		if x_[i]<0:
 			x_[i]=0
 		i+=1
