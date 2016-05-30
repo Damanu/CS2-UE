@@ -27,8 +27,8 @@ ntperturb=int(sys.argv[3])
 
 
 #---------------Globals---------------------------
-setsize=int(S*0.1)
-smallx=50./S# small x for new node and perturbation (smaller than that)
+setsize=int(S*0.2)
+smallx=10./S# small x for new node and perturbation (smaller than that)
 nt=0
 #---------------Subroutines-----------------------
 def timestep(G,x,C):
@@ -72,9 +72,10 @@ def kill_node(G,x):
 #		print dic.values().index(min(dic.values()))
 		del dic[keys[ind]] #delete the entry of the smallest x in the dict
 	dic=dict(zip(np.arange(S),x_))
-	index=str(np.random.randint(min(weak),max(weak)+1))
+	index=str(np.random.choice(weak))
 	x_[int(index)]=smallx #change x of new species
-	print index,dic[int(index)]
+#	print weak
+#	print index,dic[int(index)]
 	j=0
 	while j<S:
 		if G.has_edge(index,str(j)):
