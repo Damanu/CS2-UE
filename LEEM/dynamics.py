@@ -27,14 +27,33 @@ ntperturb=int(sys.argv[3])
 
 
 #---------------Globals---------------------------
-setsize=int(S*0.1)
+setsize=int(S*0.30)
 smallx=0.1/S# small x for new node and perturbation (smaller than that)
 nt=0
 #---------------Subroutines-----------------------
-def timestep(G,x,C):
-	x=x+np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x))))#rate equation
+def timestep(G,x,C,nt):
+	x_=x
+#	x_=x+(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))#rate equation
+	x=x_
+#	i=0
+#	while i<S:
+#		j=0
+#		while j<S:
+#			x[i]+=C[i,j]*x[j]
+#			j+=1
+#		k=0
+#		sum2=0
+#		while k<S:
+#			j=0
+#			while j<S:
+#				sum2+=C[k,j]*x[j]
+#				j+=1
+#			k+=1
+#		x[i]-=x[i]*sum2
+#		i+=1
+
 	if ntperturb==0:
-		print sum(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))
+		print nt,sum(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))
 	i=0
 	while i<S:
 		if x[i]<0:
@@ -72,7 +91,8 @@ def kill_node(G,x):
 	index=str(np.random.choice(weak))
 	x_[int(index)]=smallx #change x of new species
 #	print weak
-#	print index,dic[int(index)]
+#	print "kill: ",index,dic[int(index)]
+
 	j=0
 	while j<S:
 		if G.has_edge(index,str(j)):
@@ -90,7 +110,7 @@ def kill_node(G,x):
 	x_=perturb_all(x_)
 	dic=dict(zip(map(str,np.arange(S)),x_))
 	nx.set_node_attributes(G,"x",dic)
-	return G
+	return x,G
 def nonzerox(x):
 	count=0
 	for val in x:
@@ -101,7 +121,7 @@ def nonzerox(x):
 def perturb_all(x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
 	i=0
 	while i<S:
-		x_[i]+=x_[i]*(np.random.rand()-0.5)/1000.
+		x_[i]-=smallx*(np.random.rand())/100.
 		if x_[i]<0:
 			x_[i]=0
 		i+=1
@@ -117,17 +137,19 @@ def main():
 	C=nx.to_numpy_matrix(G,nodelist=nodel).transpose()
 	nt=0
 	while nt<ntjob:
-		C=nx.to_numpy_matrix(G,nodelist=nodel).transpose()
 #		x=np.array(nx.get_node_attributes(G,"x").values())
-		x=timestep(G,x,C) #change the attributes according to the rate equation
+		x=timestep(G,x,C,nt) #change the attributes according to the rate equation
 		nt+=1
 		if nt%ntprint==0: #every time i has run ntprint steps through
 			print_net(G,x,nt/ntprint)
 			print nt/ntprint,nonzerox(x),np.real(max(np.linalg.eig(C)[0]))
+#			print "loop: ",x[95],x[97],x[98]
+		#	print "x ",x
 		if ntperturb!=0: 
 			if nt%ntperturb==0: #every time i has run ntperturb steps through
-				G=kill_node(G,x)
-				x=np.array(nx.get_node_attributes(G,"x").values())
+				x,G=kill_node(G,x)
+				C=nx.to_numpy_matrix(G,nodelist=nodel).transpose()
+#				x=np.array(nx.get_node_attributes(G,"x").values())
 		
 if __name__=="__main__":
 	main()
