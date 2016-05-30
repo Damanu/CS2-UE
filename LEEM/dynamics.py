@@ -27,8 +27,8 @@ ntperturb=int(sys.argv[3])
 
 
 #---------------Globals---------------------------
-setsize=int(S*0.2)
-smallx=10./S# small x for new node and perturbation (smaller than that)
+setsize=int(S*0.1)
+smallx=0.1/S# small x for new node and perturbation (smaller than that)
 nt=0
 #---------------Subroutines-----------------------
 def timestep(G,x,C):
@@ -63,10 +63,7 @@ def kill_node(G,x):
 		np.random.shuffle(keys)
 		l=[]	
 		for n in keys:
-			if n>10**-5:
-				l.append(dic[n])
-			else:
-				l.append(0.)
+			l.append(dic[n])
 		ind=l.index(min(map(float,l)))
 		weak.append(int(keys[ind])) #append the smallest x key
 #		print dic.values().index(min(dic.values()))
@@ -97,14 +94,14 @@ def kill_node(G,x):
 def nonzerox(x):
 	count=0
 	for val in x:
-		if val > 10**-5:
+		if val > 10**-6:
 			count+=1
 	return count
 
 def perturb_all(x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
 	i=0
 	while i<S:
-		x_[i]+=x_[i]*(np.random.rand()-0.5)/10.
+		x_[i]+=x_[i]*(np.random.rand()-0.5)/1000.
 		if x_[i]<0:
 			x_[i]=0
 		i+=1
@@ -126,7 +123,7 @@ def main():
 		nt+=1
 		if nt%ntprint==0: #every time i has run ntprint steps through
 			print_net(G,x,nt/ntprint)
-			print nt/ntprint,nonzerox(x),max(np.linalg.eig(C)[0])
+			print nt/ntprint,nonzerox(x),np.real(max(np.linalg.eig(C)[0]))
 		if ntperturb!=0: 
 			if nt%ntperturb==0: #every time i has run ntperturb steps through
 				G=kill_node(G,x)
