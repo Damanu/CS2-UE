@@ -27,14 +27,40 @@ ntperturb=int(sys.argv[3])
 
 
 #---------------Globals---------------------------
-setsize=int(S*0.30)
+setsize=int(S*0.5)
 smallx=0.1/S# small x for new node and perturbation (smaller than that)
 nt=0
 #---------------Subroutines-----------------------
 def timestep(G,x,C,nt):
 	x_=x
+	eig=np.linalg.eig(C)
 #	x_=x+(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))#rate equation
-	x=x_
+	maxew=max(np.real(eig[0]))
+	if maxew == 0.:
+		print "000000"
+		x_=x+(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))#rate equation
+	else:
+		maxind=list(eig[0]).index(maxew)
+		x=np.squeeze(np.asarray(np.real(eig[1].transpose()[maxind])))
+		print eig[0]
+		print eig[1].transpose()[maxind]
+
+		print x		
+#	print maxew
+#	print eig[0]
+#	print eig[1].transpose()[maxind]
+#	x=eig[1].transpose()[maxind]
+#	print x		
+#	if any(n==maxew for n in list(np.real(eig[0]))):
+#		for val2 in eig[1].transpose():
+#		#	print np.squeeze(np.asarray(np.real(val2)))
+#			if any(n2 < 0 for n2 in np.squeeze(np.asarray(np.real(val2)))) or sum(np.squeeze(np.asarray(np.real(val2))))<=0:
+#				print "break"
+#			else:
+#				x=np.squeeze(np.asarray(np.real(val2)))		
+#				#print x
+#				break;
+					
 #	i=0
 #	while i<S:
 #		j=0
@@ -121,7 +147,7 @@ def nonzerox(x):
 def perturb_all(x_):	#perturb all x by an amount smaller than smallx and rescale to normalization
 	i=0
 	while i<S:
-		x_[i]-=smallx*(np.random.rand())/100.
+		x_[i]-=smallx*(np.random.rand())/1.
 		if x_[i]<0:
 			x_[i]=0
 		i+=1
