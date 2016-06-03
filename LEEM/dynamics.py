@@ -27,67 +27,36 @@ ntperturb=int(sys.argv[3])
 
 
 #---------------Globals---------------------------
-setsize=int(S*0.5)
+setsize=int(S*0.01)
 smallx=0.1/S# small x for new node and perturbation (smaller than that)
 nt=0
 #---------------Subroutines-----------------------
 def timestep(G,x,C,nt):
-	x_=x
 	eig=np.linalg.eig(C)
-#	x_=x+(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))#rate equation
-	maxew=max(np.real(eig[0]))
-	if maxew == 0.:
-		print "000000"
-		x_=x+(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))#rate equation
+	eigval=np.real(np.squeeze(np.asarray(eig[0])))
+	eigvec=np.real(np.squeeze(np.asarray(eig[1].transpose())))
+	lam1=max(eigval)
+	xlam1=eigvec[list(eigval).index(lam1)]
+	if(lam1>0.99):
+		x=xlam1**2
+#		for val in x:
+#			if abs(val) <= 10**-12:
+#				x[list(x).index(val)]=0
 	else:
-		maxind=list(eig[0]).index(maxew)
-		x=np.squeeze(np.asarray(np.real(eig[1].transpose()[maxind])))
-		print eig[0]
-		print eig[1].transpose()[maxind]
-
-		print x		
-#	print maxew
-#	print eig[0]
-#	print eig[1].transpose()[maxind]
-#	x=eig[1].transpose()[maxind]
-#	print x		
-#	if any(n==maxew for n in list(np.real(eig[0]))):
-#		for val2 in eig[1].transpose():
-#		#	print np.squeeze(np.asarray(np.real(val2)))
-#			if any(n2 < 0 for n2 in np.squeeze(np.asarray(np.real(val2)))) or sum(np.squeeze(np.asarray(np.real(val2))))<=0:
-#				print "break"
-#			else:
-#				x=np.squeeze(np.asarray(np.real(val2)))		
-#				#print x
-#				break;
-					
-#	i=0
-#	while i<S:
-#		j=0
-#		while j<S:
-#			x[i]+=C[i,j]*x[j]
-#			j+=1
-#		k=0
-#		sum2=0
-#		while k<S:
-#			j=0
-#			while j<S:
-#				sum2+=C[k,j]*x[j]
-#				j+=1
-#			k+=1
-#		x[i]-=x[i]*sum2
-#		i+=1
-
-	if ntperturb==0:
-		print nt,sum(np.squeeze(np.asarray(np.dot(C,x)))-x*sum(np.squeeze(np.asarray(np.dot(C,x)))))
+		lp=longest_path(C)[0]
+		x=np.zeros(S)
+		for ind in np.array([lp]):
+			x[ind]+=1
 	i=0
-	while i<S:
-		if x[i]<0:
-			x[i]=0
-		i+=1
+#	while i<S:
+#		if x[i]<0:
+#			x[i]=0
+#		i+=1
 	x=x/sum(x)
 	if min(x)<0:
 		print "x<0 error"
+		print eigval
+		print x
 		sys.exit()
 	return x
 
@@ -97,6 +66,19 @@ def print_net(G,x,nt):
 	nx.set_node_attributes(G,"x",dic) #set attributes new
 	fn=str("./dynamic_out/dynamic_out_nt="+str(nt)+".gexf")
 	nx.write_gexf(G,fn) #write gexf file with network
+
+def longest_path(C):
+	A=C
+	i=1
+	while np.count_nonzero(A)>0:
+		B=A
+		A=A*A
+		i+=1
+		if i==2*S:
+			print "Error: loop in C"
+			sys.exit()	 
+	indizes=np.squeeze(np.asarray(np.nonzero(np.array(B))))
+	return indizes
 
 def kill_node(G,x):
 	weak=[]
@@ -140,7 +122,7 @@ def kill_node(G,x):
 def nonzerox(x):
 	count=0
 	for val in x:
-		if val > 10**-6:
+		if val > 0.:
 			count+=1
 	return count
 
