@@ -53,7 +53,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1141" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1524" label="1524">
@@ -61,7 +61,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1524" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="3554" label="3554">
@@ -77,7 +77,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1144" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1525" label="1525">
@@ -85,7 +85,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="1525" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="1565" label="1565">
@@ -93,7 +93,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1565" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="7308" label="7308">
@@ -101,7 +101,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="7308" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="1145" label="1145">
@@ -117,7 +117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1526" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="3558" label="3558">
@@ -141,7 +141,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="345" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="346" label="346">
@@ -149,7 +149,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="346" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="67.0" />
         </attvalues>
       </node>
       <node id="347" label="347">
@@ -213,7 +213,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="812" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="348" label="348">
@@ -221,7 +221,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="348" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1148" label="1148">
@@ -245,7 +245,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="817" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1545" label="1545">
@@ -269,7 +269,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1399" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="719" label="719">
@@ -317,7 +317,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1013" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="712" label="712">
@@ -325,7 +325,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="712" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="710" label="710">
@@ -357,7 +357,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1493" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1267" label="1267">
@@ -373,7 +373,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1265" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="914" label="914">
@@ -389,7 +389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1542" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="5308" label="5308">
@@ -437,7 +437,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="911" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1063" label="1063">
@@ -445,7 +445,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1063" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="2315" label="2315">
@@ -485,7 +485,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="910" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="913" label="913">
@@ -517,7 +517,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="296" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="294" label="294">
@@ -541,7 +541,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="292" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="293" label="293">
@@ -557,7 +557,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="291" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1087" label="1087">
@@ -565,7 +565,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="1087" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="590" label="590">
@@ -573,7 +573,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="590" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="1085" label="1085">
@@ -621,7 +621,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="596" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="195" label="195">
@@ -637,7 +637,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="194" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="197" label="197">
@@ -653,7 +653,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="196" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="191" label="191">
@@ -677,7 +677,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="193" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="192" label="192">
@@ -733,7 +733,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="277" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="35.0" />
         </attvalues>
       </node>
       <node id="279" label="279">
@@ -749,7 +749,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1494" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="738" label="738">
@@ -773,7 +773,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="1454" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1455" label="1455">
@@ -789,7 +789,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1161" />
-          <attvalue for="3" value="6" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="1359" label="1359">
@@ -797,7 +797,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="1359" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="1456" label="1456">
@@ -805,7 +805,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1456" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="524" label="524">
@@ -861,7 +861,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="523" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="29.0" />
         </attvalues>
       </node>
       <node id="1014" label="1014">
@@ -877,7 +877,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1519" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="599" label="599">
@@ -917,7 +917,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1012" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="2265" label="2265">
@@ -957,7 +957,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1237" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1230" label="1230">
@@ -981,7 +981,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="1154" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1233" label="1233">
@@ -1013,7 +1013,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="441" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="440" label="440">
@@ -1021,7 +1021,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="440" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="447" label="447">
@@ -1077,7 +1077,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1135" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="102" label="102">
@@ -1093,7 +1093,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="103" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="100" label="100">
@@ -1117,7 +1117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="4350" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="107" label="107">
@@ -1133,7 +1133,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="104" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="12.0" />
         </attvalues>
       </node>
       <node id="105" label="105">
@@ -1149,7 +1149,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="902" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="903" label="903">
@@ -1157,7 +1157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="903" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="39" label="39">
@@ -1165,7 +1165,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="39" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="38" label="38">
@@ -1173,7 +1173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="38" />
-          <attvalue for="3" value="7" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="906" label="906">
@@ -1197,7 +1197,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="904" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1555" label="1555">
@@ -1285,7 +1285,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1242" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1245" label="1245">
@@ -1293,7 +1293,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1245" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="644" label="644">
@@ -1301,7 +1301,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="644" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="438" label="438">
@@ -1333,7 +1333,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="648" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="434" label="434">
@@ -1373,7 +1373,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="430" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1538" label="1538">
@@ -1389,7 +1389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="339" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="338" label="338">
@@ -1405,7 +1405,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="335" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="334" label="334">
@@ -1413,7 +1413,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="334" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="337" label="337">
@@ -1429,7 +1429,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="336" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="331" label="331">
@@ -1437,7 +1437,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="331" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="330" label="330">
@@ -1445,7 +1445,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="330" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1559" label="1559">
@@ -1477,7 +1477,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1571" />
-          <attvalue for="3" value="7" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1529" label="1529">
@@ -1501,7 +1501,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1279" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1518" label="1518">
@@ -1573,7 +1573,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="819" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1394" label="1394">
@@ -1669,7 +1669,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="99" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="98" label="98">
@@ -1677,7 +1677,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="98" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="26.0" />
         </attvalues>
       </node>
       <node id="844" label="844">
@@ -1693,7 +1693,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="1464" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="91" label="91">
@@ -1717,7 +1717,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="92" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="95" label="95">
@@ -1733,7 +1733,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="94" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="97" label="97">
@@ -1757,7 +1757,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1426" />
-          <attvalue for="3" value="6" />
+          <attvalue for="3" value="24.0" />
         </attvalues>
       </node>
       <node id="1466" label="1466">
@@ -1773,7 +1773,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1574" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="814" label="814">
@@ -1781,7 +1781,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="814" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1373" label="1373">
@@ -1805,7 +1805,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1435" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="1462" label="1462">
@@ -1813,7 +1813,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1462" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1416" label="1416">
@@ -1861,7 +1861,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="742" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="743" label="743">
@@ -1869,7 +1869,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="743" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="559" label="559">
@@ -1893,7 +1893,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="746" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="449" label="449">
@@ -1933,7 +1933,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="551" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="550" label="550">
@@ -1949,7 +1949,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="553" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="552" label="552">
@@ -1989,7 +1989,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="1558" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="234" label="234">
@@ -2085,7 +2085,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="1054" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="20.0" />
         </attvalues>
       </node>
       <node id="1055" label="1055">
@@ -2093,7 +2093,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1055" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1056" label="1056">
@@ -2125,7 +2125,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1059" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="21.0" />
         </attvalues>
       </node>
       <node id="992" label="992">
@@ -2157,7 +2157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="1" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="146" label="146">
@@ -2165,7 +2165,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="146" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="147" label="147">
@@ -2181,7 +2181,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="144" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="619" label="619">
@@ -2189,7 +2189,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="619" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="142" label="142">
@@ -2213,7 +2213,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="140" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1051" label="1051">
@@ -2237,7 +2237,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1271" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="610" label="610">
@@ -2245,7 +2245,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="610" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="12.0" />
         </attvalues>
       </node>
       <node id="1273" label="1273">
@@ -2269,7 +2269,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="617" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="614" label="614">
@@ -2277,7 +2277,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="614" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="615" label="615">
@@ -2293,7 +2293,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1007" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1543" label="1543">
@@ -2309,7 +2309,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1276" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1139" label="1139">
@@ -2341,7 +2341,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="1285" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1284" label="1284">
@@ -2357,7 +2357,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1004" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1281" label="1281">
@@ -2365,7 +2365,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="1281" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="1312" label="1312">
@@ -2381,7 +2381,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="948" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1282" label="1282">
@@ -2389,7 +2389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="1282" />
-          <attvalue for="3" value="7" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="947" label="947">
@@ -2397,7 +2397,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="947" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="4666" label="4666">
@@ -2421,7 +2421,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="942" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="943" label="943">
@@ -2437,7 +2437,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="940" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1002" label="1002">
@@ -2477,7 +2477,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1471" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="689" label="689">
@@ -2485,7 +2485,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="689" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="688" label="688">
@@ -2501,7 +2501,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1190" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1573" label="1573">
@@ -2509,7 +2509,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1573" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="684" label="684">
@@ -2517,7 +2517,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="684" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1478" label="1478">
@@ -2525,7 +2525,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1478" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="686" label="686">
@@ -2533,7 +2533,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="686" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="681" label="681">
@@ -2541,7 +2541,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="681" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1576" label="1576">
@@ -2613,7 +2613,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="459" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1497" label="1497">
@@ -2621,7 +2621,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1497" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="1308" label="1308">
@@ -2629,7 +2629,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1308" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="1309" label="1309">
@@ -2645,7 +2645,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="133" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="132" label="132">
@@ -2685,7 +2685,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="136" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="134" label="134">
@@ -2701,7 +2701,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="494" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="495" label="495">
@@ -2709,7 +2709,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="495" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="40.0" />
         </attvalues>
       </node>
       <node id="139" label="139">
@@ -2741,7 +2741,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="492" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="493" label="493">
@@ -2749,7 +2749,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="493" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="19.0" />
         </attvalues>
       </node>
       <node id="24" label="24">
@@ -2813,7 +2813,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1243" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1220" label="1220">
@@ -2837,7 +2837,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="29" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="407" label="407">
@@ -2853,7 +2853,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ear,Nose,Throat" />
           <attvalue for="2" value="406" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="113.0" />
         </attvalues>
       </node>
       <node id="405" label="405">
@@ -2877,7 +2877,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="1375" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="402" label="402">
@@ -2893,7 +2893,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="401" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="400" label="400">
@@ -2901,7 +2901,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="400" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="933" label="933">
@@ -2917,7 +2917,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1378" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="931" label="931">
@@ -2941,7 +2941,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="937" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="936" label="936">
@@ -2965,7 +2965,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="628" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1528" label="1528">
@@ -2989,7 +2989,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1344" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="758" label="758">
@@ -3005,7 +3005,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1212" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1345" label="1345">
@@ -3045,7 +3045,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1315" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="3241" label="3241">
@@ -3053,7 +3053,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="3241" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="379" label="379">
@@ -3077,7 +3077,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1439" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="829" label="829">
@@ -3109,7 +3109,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="827" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="372" label="372">
@@ -3117,7 +3117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="372" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="821" label="821">
@@ -3133,7 +3133,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="374" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="377" label="377">
@@ -3173,7 +3173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1062" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="708" label="708">
@@ -3181,7 +3181,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="708" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1176" label="1176">
@@ -3189,7 +3189,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="1176" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="704" label="704">
@@ -3229,7 +3229,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="703" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1483" label="1483">
@@ -3237,7 +3237,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="1483" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="392" label="392">
@@ -3245,7 +3245,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="392" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="88" label="88">
@@ -3261,7 +3261,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="390" />
-          <attvalue for="3" value="6" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="397" label="397">
@@ -3285,7 +3285,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="395" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="394" label="394">
@@ -3381,7 +3381,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="794" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="793" label="793">
@@ -3389,7 +3389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="793" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="792" label="792">
@@ -3413,7 +3413,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1170" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="19.0" />
         </attvalues>
       </node>
       <node id="799" label="799">
@@ -3437,7 +3437,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="1592" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1329" label="1329">
@@ -3453,7 +3453,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="7" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1388" label="1388">
@@ -3477,7 +3477,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1272" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="34.0" />
         </attvalues>
       </node>
       <node id="607" label="607">
@@ -3549,7 +3549,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="580" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="581" label="581">
@@ -3581,7 +3581,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1130" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1137" label="1137">
@@ -3589,7 +3589,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1137" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="975" label="975">
@@ -3597,7 +3597,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="975" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="588" label="588">
@@ -3605,7 +3605,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="588" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="2287" label="2287">
@@ -3613,7 +3613,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="2287" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1384" label="1384">
@@ -3637,7 +3637,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="240" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="921" label="921">
@@ -3645,7 +3645,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="921" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="973" label="973">
@@ -3661,7 +3661,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1178" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="26.0" />
         </attvalues>
       </node>
       <node id="1311" label="1311">
@@ -3677,7 +3677,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="912" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="26.0" />
         </attvalues>
       </node>
       <node id="1348" label="1348">
@@ -3685,7 +3685,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1348" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1298" label="1298">
@@ -3709,7 +3709,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1437" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1387" label="1387">
@@ -3717,7 +3717,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1387" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1432" label="1432">
@@ -3733,7 +3733,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1433" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1430" label="1430">
@@ -3741,7 +3741,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1430" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1380" label="1380">
@@ -3757,7 +3757,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="970" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="3016" label="3016">
@@ -3853,7 +3853,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="515" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="514" label="514">
@@ -3861,7 +3861,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="514" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="517" label="517">
@@ -3885,7 +3885,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="458" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="4188" label="4188">
@@ -3893,7 +3893,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="4188" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1225" label="1225">
@@ -3909,7 +3909,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="627" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="626" label="626">
@@ -3933,7 +3933,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="624" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="450" label="450">
@@ -3997,7 +3997,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="457" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1457" label="1457">
@@ -4013,7 +4013,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="178" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="177" label="177">
@@ -4037,7 +4037,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="174" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="12.0" />
         </attvalues>
       </node>
       <node id="173" label="173">
@@ -4045,7 +4045,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="173" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="171" label="171">
@@ -4109,7 +4109,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="971" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="657" label="657">
@@ -4117,7 +4117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="657" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="16.0" />
         </attvalues>
       </node>
       <node id="1080" label="1080">
@@ -4157,7 +4157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="978" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="12.0" />
         </attvalues>
       </node>
       <node id="182" label="182">
@@ -4165,7 +4165,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Unclassified" />
           <attvalue for="2" value="182" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="183" label="183">
@@ -4173,7 +4173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="183" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="180" label="180">
@@ -4197,7 +4197,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="187" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="184" label="184">
@@ -4205,7 +4205,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="184" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="185" label="185">
@@ -4221,7 +4221,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="886" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="76.0" />
         </attvalues>
       </node>
       <node id="652" label="652">
@@ -4245,7 +4245,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="1081" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1122" label="1122">
@@ -4293,7 +4293,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="651" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1331" label="1331">
@@ -4301,7 +4301,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1331" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1126" label="1126">
@@ -4309,7 +4309,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Nutritional" />
           <attvalue for="2" value="1126" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="40.0" />
         </attvalues>
       </node>
       <node id="1088" label="1088">
@@ -4325,7 +4325,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="188" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="1227" label="1227">
@@ -4389,7 +4389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="17" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="18" label="18">
@@ -4413,7 +4413,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="862" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="865" label="865">
@@ -4493,7 +4493,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="883" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="882" label="882">
@@ -4525,7 +4525,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="831" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="884" label="884">
@@ -4549,7 +4549,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="1288" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="950" label="950">
@@ -4557,7 +4557,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="950" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1362" label="1362">
@@ -4573,7 +4573,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1551" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="20.0" />
         </attvalues>
       </node>
       <node id="3232" label="3232">
@@ -4589,7 +4589,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1325" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1392" label="1392">
@@ -4637,7 +4637,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1615" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="24.0" />
         </attvalues>
       </node>
       <node id="1510" label="1510">
@@ -4693,7 +4693,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1578" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="326" label="326">
@@ -4709,7 +4709,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="327" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1476" label="1476">
@@ -4765,7 +4765,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="200" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="203" label="203">
@@ -4805,7 +4805,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="207" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="772" label="772">
@@ -4813,7 +4813,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="772" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="209" label="209">
@@ -4821,7 +4821,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="209" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="208" label="208">
@@ -4845,7 +4845,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="779" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="778" label="778">
@@ -4853,7 +4853,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="778" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="77" label="77">
@@ -4893,7 +4893,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="72" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="71" label="71">
@@ -4909,7 +4909,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="70" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1417" label="1417">
@@ -4925,7 +4925,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1349" />
-          <attvalue for="3" value="6" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="79" label="79">
@@ -4933,7 +4933,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="79" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="78" label="78">
@@ -4949,7 +4949,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1043" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1042" label="1042">
@@ -4957,7 +4957,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1042" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="17.0" />
         </attvalues>
       </node>
       <node id="1041" label="1041">
@@ -4973,7 +4973,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1040" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="49.0" />
         </attvalues>
       </node>
       <node id="1047" label="1047">
@@ -4981,7 +4981,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1047" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1046" label="1046">
@@ -4997,7 +4997,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1045" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="3178" label="3178">
@@ -5021,7 +5021,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1341" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1098" label="1098">
@@ -5045,7 +5045,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="805" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1506" label="1506">
@@ -5117,7 +5117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="669" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="668" label="668">
@@ -5125,7 +5125,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="668" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="17.0" />
         </attvalues>
       </node>
       <node id="1263" label="1263">
@@ -5157,7 +5157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="664" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="663" label="663">
@@ -5165,7 +5165,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="663" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="662" label="662">
@@ -5173,7 +5173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="662" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="661" label="661">
@@ -5189,7 +5189,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="660" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="16.0" />
         </attvalues>
       </node>
       <node id="1221" label="1221">
@@ -5205,7 +5205,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1307" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="3079" label="3079">
@@ -5237,7 +5237,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="224" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="696" label="696">
@@ -5261,7 +5261,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1540" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1293" label="1293">
@@ -5277,7 +5277,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1297" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="698" label="698">
@@ -5285,7 +5285,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="698" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="699" label="699">
@@ -5429,7 +5429,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="598" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="995" label="995">
@@ -5445,7 +5445,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1316" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="68.0" />
         </attvalues>
       </node>
       <node id="997" label="997">
@@ -5453,7 +5453,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="997" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="996" label="996">
@@ -5461,7 +5461,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="996" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="991" label="991">
@@ -5477,7 +5477,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="990" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="71.0" />
         </attvalues>
       </node>
       <node id="993" label="993">
@@ -5501,7 +5501,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="2969" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="5144" label="5144">
@@ -5517,7 +5517,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="999" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1303" label="1303">
@@ -5565,7 +5565,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="764" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="126" label="126">
@@ -5573,7 +5573,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="126" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="127" label="127">
@@ -5605,7 +5605,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1016" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="1136" label="1136">
@@ -5621,7 +5621,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="520" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="12.0" />
         </attvalues>
       </node>
       <node id="1128" label="1128">
@@ -5629,7 +5629,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="1128" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1449" label="1449">
@@ -5653,7 +5653,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1189" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1406" label="1406">
@@ -5685,7 +5685,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="416" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="417" label="417">
@@ -5701,7 +5701,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="410" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="12.0" />
         </attvalues>
       </node>
       <node id="411" label="411">
@@ -5717,7 +5717,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="412" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="17.0" />
         </attvalues>
       </node>
       <node id="413" label="413">
@@ -5733,7 +5733,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="920" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="498" label="498">
@@ -5765,7 +5765,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="418" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="925" label="925">
@@ -5773,7 +5773,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="925" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="23.0" />
         </attvalues>
       </node>
       <node id="1383" label="1383">
@@ -5781,7 +5781,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1383" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="16.0" />
         </attvalues>
       </node>
       <node id="319" label="319">
@@ -5813,7 +5813,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="310" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="316" label="316">
@@ -5821,7 +5821,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="316" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="315" label="315">
@@ -5829,7 +5829,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="315" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="314" label="314">
@@ -5845,7 +5845,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="9308" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1066" label="1066">
@@ -5861,7 +5861,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1339" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="496" label="496">
@@ -5869,7 +5869,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="496" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="832" label="832">
@@ -5893,7 +5893,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="830" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="497" label="497">
@@ -5901,7 +5901,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="497" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="836" label="836">
@@ -5909,7 +5909,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="836" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="837" label="837">
@@ -5973,7 +5973,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="1082" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="3" label="3">
@@ -6005,7 +6005,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="368" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="369" label="369">
@@ -6045,7 +6045,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="365" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="362" label="362">
@@ -6053,7 +6053,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="362" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="22.0" />
         </attvalues>
       </node>
       <node id="1337" label="1337">
@@ -6085,7 +6085,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1168" />
-          <attvalue for="3" value="8" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="952" label="952">
@@ -6101,7 +6101,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="2937" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="1304" label="1304">
@@ -6141,7 +6141,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="383" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="384" label="384">
@@ -6157,7 +6157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="385" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1566" label="1566">
@@ -6173,7 +6173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="388" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="389" label="389">
@@ -6181,7 +6181,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="389" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1332" label="1332">
@@ -6221,7 +6221,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="787" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="780" label="780">
@@ -6245,7 +6245,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="782" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="783" label="783">
@@ -6253,7 +6253,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="783" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1396" label="1396">
@@ -6269,7 +6269,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="788" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1174" label="1174">
@@ -6325,7 +6325,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="578" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1511" label="1511">
@@ -6349,7 +6349,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="572" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="25.0" />
         </attvalues>
       </node>
       <node id="2291" label="2291">
@@ -6373,7 +6373,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1173" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="576" label="576">
@@ -6389,7 +6389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="575" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="574" label="574">
@@ -6397,7 +6397,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="574" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="60" label="60">
@@ -6413,7 +6413,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="61" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="258" label="258">
@@ -6429,7 +6429,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="259" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="64" label="64">
@@ -6453,7 +6453,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="252" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="253" label="253">
@@ -6485,7 +6485,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="254" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="255" label="255">
@@ -6493,7 +6493,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="255" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1408" label="1408">
@@ -6509,7 +6509,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1371" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1423" label="1423">
@@ -6517,7 +6517,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1423" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1422" label="1422">
@@ -6533,7 +6533,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1425" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="603" label="603">
@@ -6541,7 +6541,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="603" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1370" label="1370">
@@ -6565,7 +6565,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1428" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="28.0" />
         </attvalues>
       </node>
       <node id="1172" label="1172">
@@ -6573,7 +6573,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="1172" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1163" label="1163">
@@ -6581,7 +6581,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1163" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="1586" label="1586">
@@ -6605,7 +6605,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="1585" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="731" label="731">
@@ -6645,7 +6645,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="508" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="509" label="509">
@@ -6661,7 +6661,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="739" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="507" label="507">
@@ -6669,7 +6669,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="507" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="2365" label="2365">
@@ -6685,7 +6685,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="505" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="502" label="502">
@@ -6701,7 +6701,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1037" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="500" label="500">
@@ -6717,7 +6717,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1035" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="630" label="630">
@@ -6733,7 +6733,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="1213" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="632" label="632">
@@ -6781,7 +6781,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1215" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="465" label="465">
@@ -6789,7 +6789,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="465" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="639" label="639">
@@ -6805,7 +6805,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="467" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="466" label="466">
@@ -6813,7 +6813,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="466" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="23.0" />
         </attvalues>
       </node>
       <node id="461" label="461">
@@ -6845,7 +6845,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="2427" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="901" label="901">
@@ -6861,7 +6861,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="168" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="164" label="164">
@@ -6869,7 +6869,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="164" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="165" label="165">
@@ -6885,7 +6885,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="166" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="167" label="167">
@@ -6901,7 +6901,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue" />
           <attvalue for="2" value="160" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="162" label="162">
@@ -6933,7 +6933,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="965" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="960" label="960">
@@ -7005,7 +7005,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="1106" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1107" label="1107">
@@ -7013,7 +7013,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1107" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1104" label="1104">
@@ -7053,7 +7053,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1101" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1515" label="1515">
@@ -7069,7 +7069,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1514" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1516" label="1516">
@@ -7093,7 +7093,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="908" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1391" label="1391">
@@ -7101,7 +7101,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1391" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="909" label="909">
@@ -7117,7 +7117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="3503" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1470" label="1470">
@@ -7125,7 +7125,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="1470" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="5291" label="5291">
@@ -7149,7 +7149,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1091" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1241" label="1241">
@@ -7157,7 +7157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="1241" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="600" label="600">
@@ -7173,7 +7173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="878" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1536" label="1536">
@@ -7181,7 +7181,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1536" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="876" label="876">
@@ -7197,7 +7197,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="877" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="24.0" />
         </attvalues>
       </node>
       <node id="874" label="874">
@@ -7205,7 +7205,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="874" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="875" label="875">
@@ -7213,7 +7213,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="875" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="872" label="872">
@@ -7229,7 +7229,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="873" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="870" label="870">
@@ -7253,7 +7253,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1534" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1505" label="1505">
@@ -7285,7 +7285,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="1533" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1157" label="1157">
@@ -7293,7 +7293,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1157" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1244" label="1244">
@@ -7309,7 +7309,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="891" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1156" label="1156">
@@ -7317,7 +7317,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1156" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="894" label="894">
@@ -7333,7 +7333,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="647" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="896" label="896">
@@ -7341,7 +7341,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="896" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="897" label="897">
@@ -7357,7 +7357,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="898" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="899" label="899">
@@ -7389,7 +7389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1249" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1199" label="1199">
@@ -7421,7 +7421,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1440" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1572" label="1572">
@@ -7429,7 +7429,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1572" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1608" label="1608">
@@ -7437,7 +7437,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="1608" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="3229" label="3229">
@@ -7517,7 +7517,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="355" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="354" label="354">
@@ -7525,7 +7525,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="354" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="29.0" />
         </attvalues>
       </node>
       <node id="352" label="352">
@@ -7533,7 +7533,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="352" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="23.0" />
         </attvalues>
       </node>
       <node id="351" label="351">
@@ -7541,7 +7541,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="351" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="350" label="350">
@@ -7565,7 +7565,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="802" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="801" label="801">
@@ -7621,7 +7621,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="216" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="217" label="217">
@@ -7637,7 +7637,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="214" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="769" label="769">
@@ -7645,7 +7645,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="769" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="212" label="212">
@@ -7653,7 +7653,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="212" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="48.0" />
         </attvalues>
       </node>
       <node id="213" label="213">
@@ -7669,7 +7669,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="210" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="211" label="211">
@@ -7709,7 +7709,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="761" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="766" label="766">
@@ -7749,7 +7749,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1033" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1447" label="1447">
@@ -7757,7 +7757,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1447" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="2327" label="2327">
@@ -7773,7 +7773,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1078" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1110" label="1110">
@@ -7781,7 +7781,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="1110" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="1077" label="1077">
@@ -7805,7 +7805,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1075" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1073" label="1073">
@@ -7821,7 +7821,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1070" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1071" label="1071">
@@ -7837,7 +7837,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="289" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1444" label="1444">
@@ -7861,7 +7861,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="1179" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1115" label="1115">
@@ -7869,7 +7869,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1115" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="283" label="283">
@@ -7909,7 +7909,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="287" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1442" label="1442">
@@ -7941,7 +7941,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1097" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1090" label="1090">
@@ -7981,7 +7981,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="675" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="676" label="676">
@@ -7989,7 +7989,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="676" />
-          <attvalue for="3" value="8" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="677" label="677">
@@ -8005,7 +8005,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="670" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1099" label="1099">
@@ -8013,7 +8013,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1099" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="25.0" />
         </attvalues>
       </node>
       <node id="1153" label="1153">
@@ -8037,7 +8037,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="263" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="262" label="262">
@@ -8101,7 +8101,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1031" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="269" label="269">
@@ -8109,7 +8109,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="269" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="268" label="268">
@@ -8117,7 +8117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="268" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="65.0" />
         </attvalues>
       </node>
       <node id="1554" label="1554">
@@ -8141,7 +8141,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1550" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1553" label="1553">
@@ -8173,7 +8173,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="58" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="1557" label="1557">
@@ -8181,7 +8181,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="1557" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1556" label="1556">
@@ -8221,7 +8221,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="56" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="50" label="50">
@@ -8237,7 +8237,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="53" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="52" label="52">
@@ -8253,7 +8253,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="537" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1419" label="1419">
@@ -8277,7 +8277,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="63" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="532" label="532">
@@ -8333,7 +8333,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1232" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="1414" label="1414">
@@ -8365,7 +8365,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="538" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="987" label="987">
@@ -8405,7 +8405,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1171" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1327" label="1327">
@@ -8413,7 +8413,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1327" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="5016" label="5016">
@@ -8421,7 +8421,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="5016" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="774" label="774">
@@ -8429,7 +8429,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="774" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="982" label="982">
@@ -8453,7 +8453,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="986" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="777" label="777">
@@ -8461,7 +8461,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="777" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="984" label="984">
@@ -8493,7 +8493,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="114" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="117" label="117">
@@ -8509,7 +8509,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="776" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1480" label="1480">
@@ -8525,7 +8525,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="110" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="19.0" />
         </attvalues>
       </node>
       <node id="113" label="113">
@@ -8533,7 +8533,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Developmental" />
           <attvalue for="2" value="113" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="69" label="69">
@@ -8589,7 +8589,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1418" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="23.0" />
         </attvalues>
       </node>
       <node id="773" label="773">
@@ -8621,7 +8621,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="1257" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1254" label="1254">
@@ -8629,7 +8629,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1254" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1034" label="1034">
@@ -8653,7 +8653,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="918" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="2174" label="2174">
@@ -8669,7 +8669,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1398" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="915" label="915">
@@ -8725,7 +8725,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="427" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="58.0" />
         </attvalues>
       </node>
       <node id="2074" label="2074">
@@ -8765,7 +8765,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="301" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="49.0" />
         </attvalues>
       </node>
       <node id="302" label="302">
@@ -8837,7 +8837,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Bone" />
           <attvalue for="2" value="1330" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="1589" label="1589">
@@ -8853,7 +8853,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="824" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="8350" label="8350">
@@ -8885,7 +8885,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="847" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="845" label="845">
@@ -8933,7 +8933,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="840" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1151" label="1151">
@@ -8957,7 +8957,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="4291" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="849" label="849">
@@ -8989,7 +8989,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1503" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="28.0" />
         </attvalues>
       </node>
       <node id="823" label="823">
@@ -9021,7 +9021,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="822" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1580" label="1580">
@@ -9029,7 +9029,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1580" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1322" label="1322">
@@ -9037,7 +9037,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1322" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1581" label="1581">
@@ -9053,7 +9053,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="multiple" />
           <attvalue for="2" value="1210" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1323" label="1323">
@@ -9061,7 +9061,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1323" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="1520" label="1520">
@@ -9109,7 +9109,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1321" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="9037" label="9037">
@@ -9117,7 +9117,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="9037" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="7016" label="7016">
@@ -9141,7 +9141,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="9038" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="9039" label="9039">
@@ -9157,7 +9157,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="1192" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="24.0" />
         </attvalues>
       </node>
       <node id="589" label="589">
@@ -9165,7 +9165,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="589" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="15.0" />
         </attvalues>
       </node>
       <node id="1165" label="1165">
@@ -9189,7 +9189,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="1324" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="3212" label="3212">
@@ -9205,7 +9205,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="5232" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="5233" label="5233">
@@ -9229,7 +9229,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="1039" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1238" label="1238">
@@ -9253,7 +9253,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1166" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="568" label="568">
@@ -9269,7 +9269,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cardiovascular" />
           <attvalue for="2" value="752" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="24.0" />
         </attvalues>
       </node>
       <node id="751" label="751">
@@ -9293,7 +9293,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="757" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="737" label="737">
@@ -9301,7 +9301,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="737" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="755" label="755">
@@ -9341,7 +9341,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="562" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="563" label="563">
@@ -9389,7 +9389,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1595" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="1032" label="1032">
@@ -9397,7 +9397,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1032" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1354" label="1354">
@@ -9437,7 +9437,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="228" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="46.0" />
         </attvalues>
       </node>
       <node id="3171" label="3171">
@@ -9445,7 +9445,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="3171" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="226" label="226">
@@ -9453,7 +9453,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="226" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="225" label="225">
@@ -9461,7 +9461,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Ophthamological" />
           <attvalue for="2" value="225" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="2188" label="2188">
@@ -9485,7 +9485,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="504" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="221" label="221">
@@ -9517,7 +9517,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Dermatological" />
           <attvalue for="2" value="1024" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="1026" label="1026">
@@ -9541,7 +9541,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Endocrine" />
           <attvalue for="2" value="1020" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="11.0" />
         </attvalues>
       </node>
       <node id="1023" label="1023">
@@ -9549,7 +9549,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1023" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1022" label="1022">
@@ -9565,7 +9565,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1186" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1036" label="1036">
@@ -9597,7 +9597,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="391" />
-          <attvalue for="3" value="4" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="726" label="726">
@@ -9621,7 +9621,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="724" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="18.0" />
         </attvalues>
       </node>
       <node id="725" label="725">
@@ -9629,7 +9629,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="725" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="723" label="723">
@@ -9637,7 +9637,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Gastrointestinal" />
           <attvalue for="2" value="723" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="720" label="720">
@@ -9685,7 +9685,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="1486" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="151" label="151">
@@ -9693,7 +9693,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Psychiatric" />
           <attvalue for="2" value="151" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="4.0" />
         </attvalues>
       </node>
       <node id="150" label="150">
@@ -9709,7 +9709,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="153" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="27.0" />
         </attvalues>
       </node>
       <node id="601" label="601">
@@ -9725,7 +9725,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="154" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="14.0" />
         </attvalues>
       </node>
       <node id="157" label="157">
@@ -9733,7 +9733,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="157" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="602" label="602">
@@ -9781,7 +9781,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="609" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="608" label="608">
@@ -9789,7 +9789,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="608" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="633" label="633">
@@ -9813,7 +9813,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1216" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="80" label="80">
@@ -9837,7 +9837,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="749" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="958" label="958">
@@ -9869,7 +9869,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="47" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="44" label="44">
@@ -9877,7 +9877,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="44" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="45" label="45">
@@ -9885,7 +9885,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="45" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="9.0" />
         </attvalues>
       </node>
       <node id="955" label="955">
@@ -10005,7 +10005,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Immunological" />
           <attvalue for="2" value="1562" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="5.0" />
         </attvalues>
       </node>
       <node id="1291" label="1291">
@@ -10013,7 +10013,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="1291" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="1296" label="1296">
@@ -10029,7 +10029,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1218" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="6.0" />
         </attvalues>
       </node>
       <node id="1260" label="1260">
@@ -10037,7 +10037,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Renal" />
           <attvalue for="2" value="1260" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1295" label="1295">
@@ -10053,7 +10053,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="1350" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="1360" label="1360">
@@ -10093,7 +10093,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Metabolic" />
           <attvalue for="2" value="1355" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="1441" label="1441">
@@ -10125,7 +10125,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="462" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="13.0" />
         </attvalues>
       </node>
       <node id="483" label="483">
@@ -10189,7 +10189,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Hematological" />
           <attvalue for="2" value="472" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="7.0" />
         </attvalues>
       </node>
       <node id="473" label="473">
@@ -10197,7 +10197,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Skeletal" />
           <attvalue for="2" value="473" />
-          <attvalue for="3" value="1" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="470" label="470">
@@ -10205,7 +10205,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Connective tissue disorder" />
           <attvalue for="2" value="470" />
-          <attvalue for="3" value="5" />
+          <attvalue for="3" value="17.0" />
         </attvalues>
       </node>
       <node id="471" label="471">
@@ -10221,7 +10221,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Neurological" />
           <attvalue for="2" value="476" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="3.0" />
         </attvalues>
       </node>
       <node id="477" label="477">
@@ -10237,7 +10237,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Muscular" />
           <attvalue for="2" value="474" />
-          <attvalue for="3" value="3" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="475" label="475">
@@ -10245,7 +10245,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Respiratory" />
           <attvalue for="2" value="475" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="2.0" />
         </attvalues>
       </node>
       <node id="479" label="479">
@@ -10253,7 +10253,7 @@
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Cancer" />
           <attvalue for="2" value="479" />
-          <attvalue for="3" value="2" />
+          <attvalue for="3" value="8.0" />
         </attvalues>
       </node>
       <node id="1294" label="1294">
